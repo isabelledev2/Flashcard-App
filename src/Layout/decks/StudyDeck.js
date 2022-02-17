@@ -25,7 +25,7 @@ function StudyPage(){
     
       if (Object.keys(deck).length) {
         return (
-        <>
+        <section>
         <BreadCrumb link={`/decks/${deckId}`} linkName={deck.name} pageName={"Study"} />
         <div className="row">
           <h2>Study: {deck.name}</h2>
@@ -33,7 +33,7 @@ function StudyPage(){
         <div className="row">
         <StudyCard cards={deck.cards}/> 
         </div>
-        </>
+        </section>
       )
         }
         else return "Loading deck here..."
