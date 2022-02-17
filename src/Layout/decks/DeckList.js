@@ -36,7 +36,7 @@ function ListDecks({ decks }) {
                                             <div className="col-4">
                                                 <Link to={`/decks/${deck.id}`}>
                                                     <button className="btn btn-secondary mr-1"> 
-                                                    <i class="bi bi-eye mr-1"></i>
+                                                    <i className="bi bi-eye mr-1"></i>
                                                         View
                                                     </button>
                                                 </Link>
